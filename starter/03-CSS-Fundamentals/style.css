@@ -16,7 +16,7 @@ h3 {
 
 h1 {
   /* color: blue; */
-  font: size 26px;
+  font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -124,3 +124,21 @@ a:active {
   color: red;
   font-style: italic;
 }
+
+/* Resolving conflicts*/
+
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
