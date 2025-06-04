@@ -305,7 +305,15 @@ nav {
   clear: both;
 }
 
-/* Los elementos flostan despues del primer elemento que sea float pero elementos inline */
+/* Los elementos flotan despues del primer elemento que sea float pero elementos inline */
+
+/* El elemento sale del flujo normal del documento
+
+Se coloca lo más a la izquierda o derecha posible (dependiendo del valor)
+
+Los elementos en línea (texto, imágenes) lo rodean
+
+Los elementos de bloque posteriores lo ignoran (se colocan debajo a menos que también floten) */
 
 article {
   width: 825px;
